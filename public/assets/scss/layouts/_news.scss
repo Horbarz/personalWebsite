@@ -1,0 +1,90 @@
+/** event Section **/
+.ms-news-section {
+  .news-info {
+    @include ease3;
+    width: 100%;
+    margin-bottom: 24px;
+    padding: 24px;
+    background: #fff;
+    border-radius: $border-radius-30;
+    border: 1px solid $border-color;
+    &:hover {
+      .news-img {
+        img {
+          transform: rotate(-5deg) scale(1.2);
+        }
+      }
+    }
+    .news-img {
+      width: 100%;
+      height: auto;
+      margin: 0;
+      border-radius: $border-radius-20;
+      position: relative;
+      overflow: hidden;
+      img {
+        @include ease3;
+        border-radius: $border-radius-20;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .detail {
+      width: 100%;
+      margin: 0;
+      label {
+        margin-top: 20px;
+        display: inline-block;
+        font-size: 13px;
+        color: $text-color-999;
+        border-radius: 5px;
+        a {
+          @include ease3;
+          color: $text-color-999;
+          &:hover {
+            color: $main-primary-color;
+          }
+        }
+      }
+      h3 {
+        margin: 10px 0 15px 0;
+        padding: 0;
+        line-height: 26px;
+        a {
+          color: $title-color;
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 22px;
+          text-transform: uppercase;
+        }
+      }
+      p {
+        margin-bottom: 15px;
+        padding: 0;
+        font-size: 14px;
+        color: $text-color;
+        line-height: 23px;
+        font-weight: 400;
+      }
+      .more-info {
+        a {
+          @include ease3;
+          padding: 5px 10px;
+          background: $dark-mode-bg-color;
+          border: 1px solid $border-color;
+          color: $white;
+          text-align: center;
+          font-size: 13px;
+          text-decoration: none;
+          border-radius: $border-radius-15;
+          &:hover {
+            background: $white !important;
+            color: $dark-mode-bg-color;
+          }
+        }
+      }
+    }
+  }
+}
+/** End event Section **/
+

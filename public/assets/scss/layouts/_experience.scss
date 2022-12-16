@@ -1,0 +1,111 @@
+/*===== Resume css (EXPERIENCE & EDUCATION)=====*/
+.education, .experiense {
+  h4 {
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    font-family: $font-family-montserrat;
+    color: $title-color;
+  }
+}
+.ms-experience-section {
+  .timeline {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    list-style: none;
+    position: relative;
+    .timeline-item {
+      padding-left: 40px;
+      position: relative;
+    }
+    &:after {
+      content: "";
+      background: transparent;
+      width: 15px;
+      height: auto;
+      border: none;
+      border-radius: 0;
+      top: 0;
+      bottom: 0px;
+      position: absolute;
+      border-bottom: 1px solid $border-color;
+    }
+    li {
+      margin: 0;
+    }
+  }
+}
+.timeline-info {
+  span{
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+}
+.timeline-marker {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	width: 15px;
+  &:before {
+    content: "";
+    width: 15px;
+    border: 1px solid $border-color;
+    border-radius: 100%;
+    display: block;
+    height: 15px;
+    position: absolute;
+    top: 4px;
+    left: 0;
+    transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
+  }
+  &:after {
+    content: "";
+    width: 1px;
+    border-right: 1px solid $border-color;
+    display: block;
+    position: absolute;
+    top: 24px;
+    bottom: 0;
+    left: 7px;
+  }
+}
+.timeline-item {
+  &:last-child, &:after {
+    content: none;
+  }
+  &:hover {
+    .timeline-marker{
+      &:before {
+        background: transparent;
+        border: 3px solid $main-primary-color;
+      }
+    }
+  }
+}
+.timeline-content {
+	padding-bottom: 30px;
+  .timeline-title{
+    margin-top: 15px;
+    color: $main-primary-color;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 500;
+    .sub {
+      margin-left: 15px;
+      color: $text-color-999;
+      font-size: 14px;
+    }
+  }
+  p {
+    margin-bottom: 0;
+    font-size: 14px;
+    color: $text-color;
+  }
+}  

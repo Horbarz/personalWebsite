@@ -1,0 +1,69 @@
+/**------------------------------------------------------
+Item Name: Masterly - Personal Portfolio HTML Template.
+Author: ashishmaraviya
+Version: 1.0
+Copyright 2022-2023
+Author URI: https://themeforest.net/user/ashishmaraviya
+-----------------------------------------------------------**/
+/*------------------------------------------------------------------
+[Table of contents]
+
+01. Typography
+02. Components
+    - Common
+    - Header
+    - Side Tools
+03. Layouts
+    - Hero (Home)
+    - About
+    - Service
+    - Experience
+    - Portfolio
+    - Counter
+    - News
+    - Contact
+    - Footer
+    - Whats Chat
+    - Instagram
+-------------------------------------------------------------------*/
+/*------------------------------------------------------------------
+# [Color codes]
+
+Masterly template contains couple color like:
+
+# linear-gradient(-45deg, #8490ff, #62bdfc);  // Main color
+# linear-gradient(-45deg, #F2709C, #ffb2cc);  // Color-2.css
+# linear-gradient(-45deg, #5243a5, #9486e3);  // Color-3.css
+# linear-gradient(-45deg, #3e9172, #90ddc0);  // Color-4.css
+# linear-gradient(-45deg, #fec84e, #ffdea8);  // Color-5.css
+# linear-gradient(-45deg, #677993, #2c394a);  // Color-6.css
+# linear-gradient(-45deg, #b97790, #f7c6d8);  // Color-7.css
+# linear-gradient(-45deg, #b76147, #ffc1af);  // Color-8.css
+# linear-gradient(-45deg, #d31111, #ffc4c4);  // Color-9.css
+# */
+@charset "charset";
+// Typography ( Import Typography )
+@import "base/_typography";
+
+// Utilities ( Import Utilities )
+@import "utilities/_variables";
+@import "utilities/_mixins";
+
+// Components ( Import Utilities )
+@import "components/_common";
+@import "components/_header";
+@import "components/_footer";
+@import "components/_side-tools";
+@import "components/_insect-animation";
+
+// Layouts ( Import Utilities )
+@import "layouts/_home";
+@import "layouts/_about";
+@import "layouts/_service";
+@import "layouts/_experience";
+@import "layouts/_portfolio";
+@import "layouts/_counter";
+@import "layouts/_news";
+@import "layouts/_contact";
+@import "layouts/_whats-chat";
+@import "layouts/_instagram";

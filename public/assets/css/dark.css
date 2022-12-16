@@ -1,0 +1,212 @@
+body {
+  background-color: #17181c !important;
+}
+body::-webkit-scrollbar-track {
+  background: #2c2f36 !important !important;
+}
+
+#ms-overlay {
+  background: #17181c;
+}
+#ms-overlay .ms-roller div:after {
+  background: #fff;
+}
+
+section {
+  background: #17181c;
+}
+
+.bg-shape {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background: #1b1c20;
+}
+
+.section-title h2 {
+  color: #eee;
+}
+
+.ms-contact-section form .form-group input, .ms-contact-section form .form-group textarea {
+  color: #bbb;
+}
+
+.ms-cursor {
+  border: 1px solid #fff;
+}
+
+.ms-cursor-2 {
+  background-color: #fff;
+}
+
+.main-bg {
+  background: #2c2f36 !important;
+}
+
+.ms-home .profile-img {
+  border-color: #17181c !important;
+}
+.ms-home .ms-detail {
+  border-color: #2c2f36 !important;
+}
+.ms-home .ms-detail .info h1 {
+  color: #fff;
+}
+.ms-home .ms-detail .info h2 {
+  color: #eee;
+}
+.ms-home .ms-detail .info p {
+  color: #bbb;
+}
+
+.ms-about-info ul li {
+  color: #bbb;
+}
+.ms-about-info ul li .title, .ms-about-info ul li b {
+  color: #bbb;
+}
+
+.ms-about-detail h4 {
+  color: #ccc;
+}
+.ms-about-detail .ms-text {
+  color: #bbb;
+}
+
+.ms-skill-progress h5 {
+  color: #ccc;
+}
+.ms-skill-progress .progress {
+  background: #2c2f36 !important;
+}
+
+.service-box .main-box .box-front {
+  background: #202126 !important;
+  border-color: #2c2f36 !important;
+}
+
+.flipper .content-wrap .svg_img path {
+  fill: #ccc;
+}
+
+.box-front .content-wrap h3 {
+  color: #ccc;
+}
+.box-front .content-wrap p {
+  color: #bbb;
+}
+.box-front .bg-img path {
+  fill: #ccc;
+}
+
+.education h4, .experiense h4 {
+  color: #ccc;
+}
+
+.timeline-info span {
+  color: #bbb;
+}
+
+.timeline-content p {
+  color: #bbb;
+}
+
+.timeline-marker:after, .timeline-marker:before {
+  border-color: #2c2f36 !important;
+}
+
+.ms-skill-progress .progress {
+  border-color: #2c2f36 !important;
+}
+.ms-skill-progress .progress-done {
+  background-color: #2c2f36 !important;
+}
+.ms-skill-progress .progress-done span {
+  color: #fff;
+}
+.ms-skill-progress .progress {
+  background-color: #17181c !important;
+}
+
+.ms-experience-section .timeline:after {
+  border-color: #2c2f36 !important;
+}
+
+.ms-contact-section form .custom-btn {
+  border-color: #2c2f36 !important;
+}
+
+.achive .count-block {
+  background: #202126 !important;
+  border-color: #2c2f36 !important;
+}
+.achive .count-block h3 {
+  color: #eee;
+}
+.achive .count-block p {
+  color: #bbb;
+}
+.achive .count-block .counter-icon path {
+  fill: #ccc;
+}
+
+.portfolio-tabs ul li {
+  color: #eee;
+}
+
+.hovereffect {
+  background: #202126 !important;
+  border-color: #2c2f36 !important;
+}
+
+.ms-news-section .news-info {
+  background: #202126 !important;
+  border-color: #2c2f36 !important;
+}
+.ms-news-section .news-info .detail h3 a {
+  color: #eee;
+}
+.ms-news-section .news-info .detail p {
+  color: #bbb;
+}
+
+.bg-gray {
+  background: #1b1c20;
+}
+
+.ms-contact-section form .form-group input, .ms-contact-section form .form-group textarea {
+  border-color: #2c2f36 !important;
+  color: #ccc;
+  background: #17181c;
+}
+
+.ms-fixed {
+  background-color: #2a2c34;
+}
+.ms-fixed .navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.ms-style .ms-body li {
+  background: #17181c;
+}
+.ms-style .ms-body li:not(:last-child) {
+  border-color: #2c2f36 !important;
+}
+.ms-style .ms-body li:hover {
+  background: #1b1c20;
+}
+.ms-style .ms-list .ms-user-info span {
+  color: #fff;
+}
+.ms-style .ms-list .ms-user-info p {
+  color: #bbb;
+}
+
+.ms-insta-wrapper .ms-title h2 {
+  color: #fff;
+  background-color: #1b1c20;
+}

@@ -1,0 +1,283 @@
+@charset "charset";
+// Dark Mode
+// Utilities ( Import Utilities )
+@import "utilities/_variables";
+@import "utilities/_mixins"; 
+body {
+    background-color: $dark-mode-bg-color;
+        &::-webkit-scrollbar-track {
+        background: $dark-mode-bg-light !important;
+    }
+}
+#ms-overlay {
+    background: $dark-bg;
+    .ms-roller {
+        div{
+            &:after {
+                background: $white;
+            }
+        }
+    }
+}
+section {
+    background: $dark-bg;
+}
+.bg-shape {
+    @include ease3;
+    background: $light-bg;
+}
+.section-title {
+    h2 {
+        color: $eee;
+    }
+}
+.ms-contact-section {
+    form {
+        .form-group {
+            input, textarea {
+                color: $bbb;
+            }
+        }
+    }
+}
+.ms-cursor {
+    border: 1px solid $white;
+  }
+  
+  .ms-cursor-2 {
+    background-color: $white;
+  }
+.main-bg {
+    background: $dark-mode-bg-light;
+}
+.ms-home {
+    .profile-img {
+        border-color: $dark-mode-bg-color;
+    }
+    .ms-detail {
+        border-color: $dark-mode-bg-light-color;
+        .info {
+            h1{
+                color: $white;
+            }
+            h2 {
+                color: $eee;
+            }
+            p {
+                color: $bbb;
+            }
+        }
+    }
+}
+.ms-about-info {
+    ul {
+        li {
+            color: $bbb;
+            .title, b {
+                color: $bbb;
+            }
+        }
+    }
+}
+.ms-about-detail {
+    h4 {
+        color: $ccc;
+    }
+    .ms-text {
+        color: $bbb;
+    }
+}
+.ms-skill-progress {
+    h5 {
+        color: $ccc;
+    }
+    .progress {
+        background: $dark-mode-bg-light;
+    }
+}
+.service-box {
+    .main-box {
+        .box-front {
+            background: $dark-mode-bg;
+            border-color: $dark-mode-bg-light-color;
+        }
+    }
+}
+.flipper {
+    .content-wrap {
+        .svg_img {
+            path {
+                fill: $ccc;
+            }
+        }
+    }
+}
+.box-front {
+    .content-wrap {
+        h3 {
+            color: $ccc;
+        }
+        p {
+            color: $bbb;
+        }
+    }
+    .bg-img {
+        path {
+            fill: $ccc;
+        }
+    }
+}
+.education, .experiense {
+    h4 {
+        color: $ccc;
+    }
+}
+.timeline-info {
+    span{
+        color: $bbb;
+    }
+}
+.timeline-content {
+    p {
+        color: $bbb;
+    }
+}
+.timeline-marker {
+    &:after, &:before {
+        border-color: $dark-mode-bg-light-color;
+    }
+}
+.ms-skill-progress {
+    .progress {
+        border-color: $dark-mode-bg-light-color;
+    }
+    .progress-done {
+        background-color: $dark-mode-bg-light-color;
+        span {
+            color: $white;
+        }
+    }
+    .progress {
+        background-color: $dark-mode-bg-color;
+    }
+}
+.ms-experience-section {
+    .timeline{
+        &:after {
+            border-color: $dark-mode-bg-light-color;
+        }
+    }
+}
+.ms-contact-section {
+    form {
+        .custom-btn {
+            border-color: $dark-mode-bg-light-color;
+        }
+    }
+}
+.achive {
+    .count-block {
+        background: $dark-mode-bg;
+        border-color: $dark-mode-bg-light-color;
+        h3 {
+            color: $eee;
+        }
+        p {
+            color: $bbb;
+        }
+        .counter-icon {
+            path {
+                fill: $ccc;
+            }
+        }
+    }
+}
+.portfolio-tabs {
+    ul {
+        li {
+            color: $eee;
+        }
+    }
+}
+.hovereffect {
+    background: $dark-mode-bg;
+    border-color: $dark-mode-bg-light-color;
+}
+.ms-news-section {
+    .news-info {
+        background: $dark-mode-bg;
+        border-color: $dark-mode-bg-light-color;
+        .detail {
+            h3 {
+                a{
+                    color: $eee;
+                }
+            }
+            p {
+                color: $bbb;
+            }
+        }
+    }
+}
+.bg-gray{
+    background: $light-bg;
+}
+.ms-contact-section {
+    form {
+        .form-group {
+            input, textarea {
+                border-color: $dark-mode-bg-light-color;
+                color: $ccc;
+                background: $dark-bg;
+            }
+        }
+    }
+}
+.ms-fixed {
+    background-color: #2a2c34;
+    .navbar-dark {
+        .navbar-nav {
+          .nav-link{
+            color: $white;
+          }
+        }
+      }
+}
+.navbar-dark {
+    .navbar-nav {
+      .nav-link{
+        color: $white;
+      }
+    }
+  }
+.ms-style {
+    .ms-body {
+        li {
+            background: $dark-bg;
+            &:not(:last-child) {
+				border-color: $dark-mode-bg-light-color;
+			}
+            &:hover {
+                background: $light-bg;
+            }
+        }
+    }
+    .ms-list {
+        .ms-user-info {
+            span {
+                color: $white;
+            }
+            p {
+                color: $bbb;
+            }
+        }
+    }
+}
+.ms-insta-wrapper {
+    .ms-title {
+        h2 {
+            color: $white;
+            background-color: $light-bg;
+        }
+    }
+}

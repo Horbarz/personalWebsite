@@ -1,0 +1,62 @@
+/*===== Header css =====*/
+header {
+  @include ease3;
+  .nav-sec {
+    @include ease3;
+    width: 100%;
+    margin: 0;
+    padding: 16px 0;
+    nav {
+      background-color: transparent;
+    }
+  }
+  .active {
+    .nav-link {
+      color: $main-primary-color !important;
+    }
+  }
+}
+.navbar-dark {
+  .navbar-nav {
+    margin-bottom: 0 !important;
+    .nav-link{
+      color: $white;
+      font-weight: 500;
+    }
+  }
+}
+.ms-fixed {
+  .navbar-dark {
+    .navbar-nav {
+      .nav-link{
+        color: $text-color;
+      }
+    }
+  }
+}
+.ms-static {
+  @include ease3;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+.ms-fixed {
+  @include ease3;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  position: fixed;
+  background-color: rgba(255, 255, 255, .95);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, .12);
+  top: 0;
+  left: 0;
+  z-index: 30;
+  backdrop-filter: blur(5px);
+  .nav-sec {
+    padding: 0;
+  }
+}

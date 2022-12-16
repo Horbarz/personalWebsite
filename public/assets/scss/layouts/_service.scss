@@ -1,0 +1,196 @@
+/*===== Service css =====*/
+.gradient-bg {
+	background : $dark-mode-bg-color;
+}
+.height-300 {
+	// height: 300px;
+}
+.service-box {
+	display: flex;
+	flex-wrap: wrap;
+	.main-box {
+		position: relative;
+		-webkit-perspective: 1000px;
+		-moz-perspective: 1000px;
+		&:hover {
+			.box-front {
+				-webkit-transform: rotateY(180deg);
+				transform: rotateY(180deg);
+			}
+			.box-back {
+				-webkit-transform: rotateY(0deg);
+				transform: rotateY(0deg);
+			}
+		}
+		.box-front {
+			text-align: center;
+			z-index: 1;
+			-webkit-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			-webkit-perspective: inherit;
+			perspective: inherit;
+			-webkit-transition: -webkit-transform .8s cubic-bezier(.5,1.3,.5,1.3);
+			transition: -webkit-transform .8s cubic-bezier(.5,1.3,.5,1.38);
+			transition: transform .8s cubic-bezier(.5,1.3,.5,1.3);
+			transition: transform .8s cubic-bezier(.5,1.3,.5,1.3),-webkit-transform .8s cubic-bezier(.5,1.3,.5,1.3);
+			border-radius: $border-radius-30;
+			-webkit-transform: rotateY(0deg);
+			transform: rotateY(0deg);
+		    border: 1px solid $border-color;
+			background-color: $white;
+		}
+		.box-back {
+			text-align: center;
+			z-index: 1;
+			-webkit-transform-style: preserve-3d;
+			transform-style: preserve-3d;
+			-webkit-backface-visibility: hidden;
+			backface-visibility: hidden;
+			-webkit-perspective: inherit;
+			perspective: inherit;
+			-webkit-transition: -webkit-transform .8s cubic-bezier(.5,1.3,.5,1.3);
+			transition: -webkit-transform .8s cubic-bezier(.5,1.3,.5,1.38);
+			transition: transform .8s cubic-bezier(.5,1.3,.5,1.3);
+			transition: transform .8s cubic-bezier(.5,1.3,.5,1.3),-webkit-transform .8s cubic-bezier(.5,1.3,.5,1.3);
+			border-radius: $border-radius-30;
+			-webkit-transform: rotateY(-180deg);
+			transform: rotateY(-180deg);
+			position: absolute;
+			display: block;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.1);
+      display: flex;
+      align-items: center;
+		}
+	}
+	.flipper {
+		position: relative;
+		padding: 12px 0;
+		&:hover {
+			.box-front {
+				-webkit-transform-style: preserve-3d;
+				transform-style: preserve-3d;
+				-webkit-transition: all 1s cubic-bezier(.5,1,.5,1);
+				transition: all 1s cubic-bezier(.5,1.3,.5,1.3);
+			}
+			.box-back {
+				-webkit-transform-style: preserve-3d;
+				transform-style: preserve-3d;
+				-webkit-transition: all 1s cubic-bezier(.5,1,.5,1);
+				transition: all 1s cubic-bezier(.5,1.3,.5,1.3);
+			}
+		}
+	}
+}
+.flipper {
+	.content-wrap {
+		.svg_img {
+			width: 50px;
+			height: 50px;
+			margin-bottom: 15px;
+			path {
+				fill: $title-color;
+			}
+		}
+	}
+}
+.main-box {
+	.content-wrap {
+		width: 100%;
+		display: block;
+		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+		-webkit-perspective: inherit;
+		perspective: inherit;
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		padding: 30px;
+		-webkit-transform: translate3d(0, 0, 50px) scale(.9);
+		transform: translate3d(0, 0, 50px) scale(.9);
+	}
+}
+.box-front {
+	.content-wrap {
+		h3 {
+			margin-bottom: 15px;
+			color: $title-color;
+			text-align: center;
+      		font-size: 20px;
+			line-height: 26px;
+      		font-weight: 600;
+		}
+		p {
+      		margin: 0;
+			color: $text-color;
+			text-align: center;
+      		font-size: 14px;
+			line-height: 22px;
+		}
+	}
+  .bg-img {
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    // opacity: .05;
+    opacity: 0;
+    border-radius: 0 30px 0 0;
+	path {
+		fill: $title-color;
+	}
+  }
+}
+.box-back {
+	.content-wrap {
+		h3 {
+			margin-bottom: 15px;
+			color: $white;
+			text-align: center;
+			margin-top: 0;
+      		font-size: 20px;
+			line-height: 26px;
+      		font-weight: 600;
+		}
+		p {
+      		margin: 0;
+			color: $white;
+			text-align: center;
+			font-size: 14px;
+			line-height: 24px;
+		}
+	}
+	.btn {
+    @include ease3;
+		padding: 6px 15PX;
+		font-size: 14px;
+		letter-spacing: 0.05rem;
+		margin-top: 15px;
+		font-weight: 500;
+		border-radius: 0 20px 0 0;
+		border: 1px solid $white;
+		border-radius: $border-radius-15;
+		color: $white;
+		&:hover {
+			background-color: $white;
+			color: $title-color;
+		}
+	}
+}
+.content-wrap {
+	p {
+		margin-bottom: 10px;
+		text-align: left;
+	}
+}
+/* End Service Section */
+
+.ms-about-section-2 {
+	display: block;
+	transform : none;
+  }

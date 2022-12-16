@@ -1,0 +1,54 @@
+/** Start Contact Section **/
+footer {
+  padding: 5px 0;
+  background: $light-bg;
+}
+.ms-footer-detail {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .ms-copy {
+    color: $white;
+    font-size: 14px;
+    letter-spacing: .02rem;
+    a {
+      color: $main-primary-color-1;
+    }
+  }
+  .ms-social {
+    ul {
+      width: 150px;
+      padding: 5px 10px;
+      margin: auto;
+      display: flex;
+      justify-content: space-around;
+      border-radius: $border-radius-30;
+      li {
+        margin-left: 5px;
+        a {
+          @include ease3;
+          width: 30px;
+          height: 30px;
+          line-height: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          background: #333;
+          border-radius: $border-radius-30;
+          i {
+            @include ease3;
+            color: $white;
+          }
+          &:hover {
+            background: $white;
+            i {
+              color: $main-primary-color-1;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/** End Contact Section **/
+
