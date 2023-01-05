@@ -31,9 +31,9 @@ function WorkExperience() {
                                         <li>• Development of traceability matrix to ensure all requirements are fulfilled.</li>
                                         <li>• Defect tracking using Jira; Creating, prioritizing, and assigning issues.</li>
                                         <li>• Responsible for E2E test automation framework with 100+ Test cases for 10 commercial banks.</li>
-                                        <li>• 50+ Test Cases running daily in CI/CD (Groovy, Selenium, Team city, and Git)</li>
-                                        <li>• Hands-on experience with various frameworks such as Data driven, Keyword Driven, Hybrid
-                                            Approach, Business Process Testing (BPT), and Behavioral Driven Development (BDD)</li>
+                                        <li>• 50+ Test Cases running daily in CI/CD (Groovy, Selenium, Team city, and Git).</li>
+                                        <li>• Hands-on experience with various frameworks such as Data driven, Keyword Driven, Hybrid Approach, and Behavioral
+                                            Driven Development (BDD).</li>
                                         <li>• Creating reusable and generic methods that can be used across the automation framework.</li>
                                         <li>• Identified inefficiencies with the manual testing process and improved them with automation.</li>
                                         <li>&nbsp</li>
