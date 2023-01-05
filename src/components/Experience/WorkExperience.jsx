@@ -54,7 +54,7 @@ function WorkExperience() {
                             <ul className="timeline">
                                 <li className="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
                                     <div className="timeline-info">
-                                        <span>April 2021 - December 2021</span>
+                                        <span>April 2019 - December 2019</span>
                                     </div>
                                     <div className="timeline-marker"></div>
                                     <div className="timeline-content">
