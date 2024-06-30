@@ -20,7 +20,7 @@ function WorkExperience() {
                                     </div>
                                     <div className="timeline-marker"></div>
                                     <div className="timeline-content">
-                                        <h5 className="timeline-title">APPZONE CARDS<span className="sub">- QA Engineer</span></h5>
+                                        <h5 className="timeline-title">QORE<span className="sub">- QA Engineer</span></h5>
                                         <li>• Analysis of functional and technical requirements, design specifications, and architecture to identify
                                             relevant testing methodologies for debit card processing and management software.</li>
                                         <li>• Test plan development that contains projected timelines for test completion while
