@@ -16,7 +16,85 @@ function WorkExperience() {
                             <ul className="timeline">
                                 <li className="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
                                     <div className="timeline-info">
-                                        <span>May 2020 - Present</span>
+                                        <span>Aug 2023 - Present</span>
+                                    </div>
+                                    <div className="timeline-marker"></div>
+                                    <div className="timeline-content">
+                                        <h5 className="timeline-title">Investment One<span className="sub">- QA Engineer</span></h5>
+                                        <li>• Analyzed project requirements and user stories to understand the scope of testing and identify potential areas of
+                                            focus within our asset purchasing, asset management and asset disposal app.</li>
+                                        <li>• Developed test plans and strategies tailored to the eCommerce app, outlining testing objectives, timelines, and
+                                            resources required</li>
+                                        <li>• Created detailed and comprehensive test cases covering various aspects of the asset purchasing app, including
+                                            user interface, functionality, and integration with third party systems.</li>
+                                        <li>• Conducted comprehensive manual e2e testing of our asset purchasing app within a Direct-to-Consumer (DTC)
+                                            environment, focusing on product catalog management, shopping cart and check out process, shipping, and delivery etc.</li>
+                                        <li>• Reported identified defects accurately using Clickup, providing clear and concise information for developers to
+                                            replicate and resolve issues promptly by integrating Clickup with Jam bug reporting tool.</li>
+                                        <li>• Participated in regression testing cycles to validate bug fixes and ensured the stability of the app across multiple
+                                            releases.</li>
+                                        <li>• Conducted an extensive load and stress test on the app to ensure the app could handle concurrent user traffic using
+                                            jmeter.</li>
+                                        <li>• Developed a comprehensive test automation framework with Playwright using page object model</li>
+                                        <li>&nbsp</li>
+                                        <li>&nbsp</li>
+                                        <li>&nbsp</li>
+                                        <li>&nbsp</li>
+                                    </div>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-12 col-sm-12">
+                        <div className="education ms-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                            {/* <h4>Education</h4> */}
+                            <ul className="timeline">
+                                <li className="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                    <div className="timeline-info">
+                                        <span>Mar 2022 - Jul  2023</span>
+                                    </div>
+                                    <div className="timeline-marker"></div>
+                                    <div className="timeline-content">
+                                        <h5 className="timeline-title">Investment One<span className="sub">- QA Engineer</span></h5>
+                                        <li>• Led a team of QA engineers and provided guidance, and technical expertise to ensure the successful delivery of
+                                            high-quality applications under test.</li>
+                                        <li>• Collaborated with the development team and product owners to define test strategies, test plans, and test
+                                            scenarios for an investment mobile app</li>
+                                        <li>• Conducted code reviews and provided feedback to team members on test automation scripts and frameworks
+                                            developed using Appium, TestNG, UIAutomator2 driver and XCUITest.</li>
+                                        <li>• Managed the staging environment, including mobile devices, emulators, and test data, to support comprehensive
+                                            mobile app testing.</li>
+                                        <li>• Integrated and implemented test reporting using Extent Reports library.</li>
+                                        <li>• Collaborated with cross-functional teams, including development, product management, and UX/UI design, to
+                                            ensure alignment on quality goals and requirements.</li>
+                                        <li>• Implemented continuous integration and continuous deployment (CI/CD) pipelines using Azure DevOps to
+                                            automate the build, test, and deployment processes.</li>
+                                        <li>• Utilized github as the source code repository, managing version control, branching, and merging for the test
+                                            automation codebase.</li>
+                                        <li>• Utilized github as the source code repository, managing version control, branching, and merging for the test
+                                            automation codebase.</li>
+                                        <li>&nbsp</li>
+                                        <li>&nbsp</li>
+                                        <li>&nbsp</li>
+                                        <li>&nbsp</li>
+                                    </div>
+
+                                </li>
+
+                            </ul>
+
+                        </div>
+                    </div>
+                    <div className="col-lg-6 col-md-12 col-sm-12">
+                        <div className="education ms-box" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                            {/* <h4>Education</h4> */}
+                            <ul className="timeline">
+                                <li className="timeline-item" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
+                                    <div className="timeline-info">
+                                        <span>May 2020 - Feb  2022</span>
                                     </div>
                                     <div className="timeline-marker"></div>
                                     <div className="timeline-content">

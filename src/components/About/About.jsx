@@ -13,13 +13,13 @@ function About() {
                         <div className="col-lg-6">
                             <div className="ms-about-detail">
                                 <h4>Quality can never be overemphasized.</h4>
-                                <p className="ms-text">Experienced QA Engineer having <b>4+ years</b> of solid experience in the field and practical history working in Banking, Educational, Ecommerce, and FinTech industries as an Automation and Manual QA engineer</p>
+                                <p className="ms-text">Experienced QA Engineer having <b>5+ years</b> of solid experience in the field and practical history working in Banking, Blockchain, Ecommerce, and FinTech industries as an Automation and Manual QA engineer</p>
                                 <div className="ms-about-info">
                                     <ul className="m-r-30">
                                         <li><span className="title">Full Name<b>:</b></span>Abioye Obaloluwa Peter</li>
-                                        <li><span className="title">Age<b>:</b></span>26 Years</li>
+                                        <li><span className="title">Age<b>:</b></span>27 Years</li>
                                         <li><span className="title">Language<b>:</b></span>English</li>
-                                        <li><span className="title">Phone No<b>:</b></span>+2348175885645</li>
+                                        <li><span className="title">Phone No<b>:</b></span>+393508244460</li>
                                         <li><span className="title">Email<b>:</b></span><a href='mailto:abioyeobaloluwapeter@gmail.com'>abioyeobaloluwapeter@gmail.com</a></li>
                                         <li><span className='title'>Linkedln<b>:</b></span><a href='https://www.linkedin.com/in/abioye-obaloluwa'>Abioye_Obaloluwa</a></li>
                                         <li><span className='title'>Github<b>:</b></span><a href='https://github.com/horbarz'>horbarz_github</a></li>
