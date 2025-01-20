@@ -19,7 +19,7 @@ function Home() {
                                 <div className="info">
                                     <h1>ABIOYE OBALOLUWA</h1>
                                     <h2><span>-</span>QA Engineer | Software Automation Test Engineer</h2>
-                                    <p>Professional QA engineer with over 4 years of experience performing detailed agile testing of fintech, educational,
+                                    <p>Professional QA engineer with over 5 years of experience performing detailed agile testing of fintech, blockchain,
                                         ecommerce, and CRM-based software applications. Prodigious work experience in identifying, analyzing, and
                                         documenting software defects with extensive analytical skills, great manual and automation testing expertise, effective
                                         communication skills, solid attention to detail, and excellent ability to work in a team.</p>

@@ -36,10 +36,7 @@ function WorkExperience() {
                                         <li>• Conducted an extensive load and stress test on the app to ensure the app could handle concurrent user traffic using
                                             jmeter.</li>
                                         <li>• Developed a comprehensive test automation framework with Playwright using page object model</li>
-                                        <li>&nbsp</li>
-                                        <li>&nbsp</li>
-                                        <li>&nbsp</li>
-                                        <li>&nbsp</li>
+
                                     </div>
 
                                 </li>
@@ -76,10 +73,6 @@ function WorkExperience() {
                                             automation codebase.</li>
                                         <li>• Utilized github as the source code repository, managing version control, branching, and merging for the test
                                             automation codebase.</li>
-                                        <li>&nbsp</li>
-                                        <li>&nbsp</li>
-                                        <li>&nbsp</li>
-                                        <li>&nbsp</li>
                                     </div>
 
                                 </li>
